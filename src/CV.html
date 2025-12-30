@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume - Matthew Lam</title>
+    
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/android-chrome-512x512.png" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    
+    <!-- External Stylesheets -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    
+    <style>
+        .pdf-container {
+            width: 100%;
+            height: calc(100vh - 80px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            background: var(--card-background);
+            transition: background 0.3s ease;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 900px;
+            height: 100%;
+            border: none;
+            box-shadow: var(--shadow);
+            background: white;
+        }
+
+        .error-message {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-color);
+        }
+
+        .error-message a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <!-- Logo -->
+            <h1 id="logo">
+                <a href="index.html">
+                    <img src="./assets/logo.jpeg" alt="Your Logo" />
+                </a>
+            </h1>
+            
+            <!-- Navigation Menu -->
+            <ul class="nav-menu">
+                <li><a class="nav-link" href="index.html">HOME</a></li>
+                <li><a class="nav-link" href="index.html#experience">EXPERIENCE</a></li>
+                <li><a class="nav-link" href="index.html#projects">PROJECTS</a></li>
+                <li><a class="nav-link" href="gallery.html">GALLERY</a></li>
+                <li><a class="nav-link" href="index.html#contact">CONTACT</a></li>
+                <li>
+                    <a class="nav-link btn btn-primary" href="CV.html">
+                        RESUME <i class="fas fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+                <!-- Theme Toggle Switch -->
+                <li class="theme-switch">
+                    <input type="checkbox" id="switch" />
+                    <label class="toggle-icons" for="switch">
+                        <img class="moon" src="assets/moon.svg" alt="Dark mode" />
+                        <img class="sun" src="assets/sun.svg" alt="Light mode" />
+                    </label>
+                </li>
+            </ul>
+            
+            <!-- Mobile Hamburger Menu -->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="pdf-container">
+        <iframe src="assets/resume/MASTER_RESUME_Matthew _V2.pdf" type="application/pdf">
+            <div class="error-message">
+                <p>Your browser doesn't support PDF viewing.</p>
+                <p><a href="assets/resume/MASTER_RESUME_Matthew _V2.pdf" download>Download the PDF</a> instead.</p>
+            </div>
+        </iframe>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

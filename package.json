@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-html",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "browser-sync start --server src --files \"src/**/*\" --port 8000"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.10"
+  }
+}
