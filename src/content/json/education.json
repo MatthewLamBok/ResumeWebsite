@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "degree": "Masters of Applied Science, Biomedical Engineering",
+    "school": "Toronto Metropolitan University",
+    "location": "Toronto, ON",
+    "startDate": "2023",
+    "endDate": "Expected Dec 2025",
+    "gpa": "4.0/4.0",
+    "thesis": "Web-Integrated AI Platform for Endometrial Biopsy Pathology Classification Using Multiple Instance Learning",
+    "additionalInfo": [
+      "Engineering Teaching Assistant: Signals and Systems I, Introduction to Software & Human-Computer Interactions"
+    ]
+  },
+  {
+    "id": 2,
+    "degree": "Bachelor of Engineering, Biomedical Engineering",
+    "school": "Toronto Metropolitan University",
+    "location": "Toronto, ON",
+    "startDate": "2019",
+    "endDate": "April 2023",
+    "gpa": "3.7/4.0"
+  }
+]

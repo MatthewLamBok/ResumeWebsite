@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Enhancing Polyp Segmentation in Colorectal Cancer using Attention U-Net Model",
+    "description": "Built a full segmentation pipeline including data preprocessing, augmentation, model training, evaluation metrics, and visualization.",
+    "technologies": ["Python", "PyTorch", "U-Net", "Computer Vision"],
+    "date": "Dec 2024",
+    "image": "/images/project_1.avif",
+    "github": "#",
+    "live": "#",
+    "highlights": [
+      "Built a **full segmentation pipeline** including data preprocessing, augmentation, model training, evaluation metrics, and visualization",
+      "Evaluated deep learning architectures (U-Net, R2U-Net, Attention U-Net) for polyp segmentation using the **Kvasir-SEG dataset**, achieving **Dice of 71.363%** with the attention-enhanced model"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Project Two",
+    "description": "Description of your second project",
+    "technologies": ["React", "Redux", "SASS"],
+    "date": "2024",
+    "image": "/images/project-two.png",
+    "github": "#",
+    "live": "#"
+  }
+]

@@ -1,0 +1,24 @@
+/* ==========================================
+   Main Stylesheet - Organized Imports
+   ========================================== */
+
+/* 1. CSS Variables & Theme Configuration */
+@import './styles/variables.css';
+
+/* 2. Base Styles & Reset */
+@import './styles/base.css';
+
+/* 3. Typography & Text Formatting */
+@import './styles/typography.css';
+
+/* 4. Header & Navigation */
+@import './styles/header.css';
+
+/* 5. Page Sections (Hero, Experience, Education, etc.) */
+@import './styles/sections.css';
+
+/* 6. Resume Page Specific */
+@import './styles/resume.css';
+
+/* 7. Responsive Design & Media Queries */
+@import './styles/responsive.css';

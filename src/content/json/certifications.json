@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "1st Place in Biomedical Engineering Case Competition",
+    "issuer": "Toronto Metropolitan University",
+    "date": "2022",
+    "description": "Designed a full-body suit that regulates body temperature in extreme environments"
+  },
+  {
+    "id": 2,
+    "name": "Software Fundamentals Series",
+    "issuer": "IEEE CSRC",
+    "date": "2022",
+    "description": "Python, Unix, GitHub, SQL"
+  },
+  {
+    "id": 3,
+    "name": "Certified SOLIDWORKS Associate (CWSA)",
+    "issuer": "SOLIDWORKS",
+    "date": "2021"
+  }
+]

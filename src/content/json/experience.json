@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Graduate Researcher",
+    "company": "Maternal Fetal Imaging (MFI) Lab",
+    "location": "Toronto Metropolitan University (TMU)",
+    "startDate": "Aug 2023",
+    "endDate": "Present",
+    "companyUrl": "https://www.torontomu.ca/dsussman/",
+    "logo": "/images/maternalFetalImagingLabLogo.jpg",
+    "projects": [
+      {
+        "name": "Automatic Triage Diagnosis Algorithm",
+        "tech": "PyTorch",
+        "responsibilities": [
+          "Led development of **EndoAI**, a rapid deep-learning system for diagnosing endometrial cancer from gigapixel images",
+          "Designed efficient **multi-instance learning (MIL) augmentation method** for training AI models",
+          "Achieved a **AUC improvement of 4–5%** over standard MIL baselines across benign vs. non-benign and subclassification tasks without pathologist annotations",
+          "Developed a full **preprocessing and training pipeline**, including covering tissue detection, patching, feature extraction, and slide-level classification"
+        ]
+      },
+      {
+        "name": "Digital Pathology Web Platform",
+        "tech": "Cloud Object-Storage",
+        "responsibilities": [
+          "Implemented key components of a full-stack web platform for AI-assisted histopathology diagnosis, integrating **Node.js/TypeScript services with Python ML pipelines**",
+          "Developed the **end-to-end multi-model inference pipeline** that executes five pretrained pathology models on each uploaded slide and delivers class predictions with confidence scores",
+          "Built an interactive **image viewer** and heatmap overlays with annotations"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Undergrad Internship: Machine Learning Engineer",
+    "company": "Maternal Fetal Imaging Lab",
+    "companyUrl": "https://www.torontomu.ca/dsussman/",
+    "location": "Toronto Metropolitan University (TMU)",
+    "startDate": "Sept 2022",
+    "endDate": "Jul 2023",
+    "logo": "/images/maternalFetalImagingLabLogo.jpg",
+    "responsibilities": [
+      "Implemented a preprocessing step that subdivides images of cancer cells",
+      "Collaborated closely with researchers and a supervising professor to refine methodology and validate results"
+    ]
+  }
+]

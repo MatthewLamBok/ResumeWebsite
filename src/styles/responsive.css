@@ -1,0 +1,234 @@
+/* ==========================================
+   Responsive Design - Mobile & Tablet
+   ========================================== */
+
+/* Tablet & Small Laptop (768px and below) */
+@media (max-width: 768px) {
+  /* Header */
+  .header-nav {
+    gap: 1rem;
+    font-size: 0.875rem;
+  }
+
+  .header-container {
+    padding: 1rem;
+  }
+
+  /* Hero Section */
+  .hero {
+    padding: 6rem 1rem 3rem;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.125rem;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+  }
+
+  .hero-profile-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* Sections */
+  .section {
+    padding: 3rem 1rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  /* Timeline */
+  .timeline {
+    padding-left: 1rem;
+  }
+
+  .timeline-content {
+    margin-left: 0.5rem;
+    padding: 1.5rem;
+  }
+
+  .experience-header {
+    flex-direction: column;
+  }
+
+  .education-info-row {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .education-gpa {
+    margin-top: 0.5rem;
+  }
+
+  /* Grids */
+  .education-grid,
+  .projects-grid,
+  .skills-grid,
+  .certifications-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  /* Resume Page */
+  .resume-page {
+    padding: 5rem 1rem 2rem;
+  }
+
+  .resume-title {
+    font-size: 2rem;
+  }
+
+  .pdf-viewer-container embed,
+  .pdf-viewer-container iframe,
+  .pdf-viewer-container object {
+    min-height: 600px;
+  }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+  /* Header */
+  .header-container {
+    padding: 0.75rem 1rem;
+  }
+
+  .header-nav {
+    gap: 0.75rem;
+    font-size: 0.8rem;
+  }
+
+  .theme-toggle {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+
+  .resume-link {
+    padding: 0.4rem 1rem !important;
+    font-size: 0.8rem;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 5rem 1rem 2rem;
+  }
+
+  .hero-title {
+    font-size: 1.75rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-description {
+    font-size: 0.9rem;
+  }
+
+  .hero-profile-img {
+    width: 120px;
+    height: 120px;
+    border-width: 3px;
+  }
+
+  .hero-cta {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  /* Sections */
+  .section {
+    padding: 2.5rem 1rem;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  /* Cards */
+  .timeline-content,
+  .education-card,
+  .project-card,
+  .skill-category,
+  .certification-card {
+    padding: 1.25rem;
+  }
+
+  /* Resume Page */
+  .resume-page {
+    padding: 4.5rem 0.75rem 1.5rem;
+  }
+
+  .resume-title {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .resume-actions {
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 0 0.5rem;
+  }
+
+  .pdf-viewer-container embed,
+  .pdf-viewer-container iframe,
+  .pdf-viewer-container object {
+    min-height: 500px;
+  }
+
+  /* Buttons */
+  .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .see-more-btn {
+    padding: 0.75rem 2rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Large Desktop (1440px and above) */
+@media (min-width: 1440px) {
+  .section,
+  .header-container,
+  .resume-container {
+    max-width: 1400px;
+  }
+
+  .hero-title {
+    font-size: 4rem;
+  }
+
+  .section-title {
+    font-size: 3rem;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .header,
+  .theme-toggle,
+  .resume-actions,
+  .see-more-btn {
+    display: none;
+  }
+
+  .pdf-viewer-container {
+    border: none;
+    box-shadow: none;
+  }
+
+  body {
+    background: white;
+    color: black;
+  }
+}

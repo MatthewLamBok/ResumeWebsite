@@ -1,0 +1,26 @@
+/* ==========================================
+   Text Formatting & Bold Styles
+   ========================================== */
+
+/* Ensure bold text from markdown conversion stands out */
+strong {
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+/* Bold text in list items */
+.responsibilities-list li strong,
+.project-highlights li strong {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+/* Bold text in dark theme */
+[data-theme="dark"] strong {
+  color: #60a5fa;
+}
+
+/* Bold text in light theme */
+[data-theme="light"] strong {
+  color: var(--color-primary-dark);
+}

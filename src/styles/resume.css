@@ -1,0 +1,93 @@
+/* ==========================================
+   Resume Page
+   ========================================== */
+
+.resume-page {
+  padding: 6rem 2rem 4rem;
+  min-height: calc(100vh - 120px);
+}
+
+.resume-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.resume-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--color-text);
+}
+
+.resume-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.pdf-viewer-container {
+  background: var(--color-bg-card);
+  border: 2px solid var(--color-border);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.pdf-viewer-container embed,
+.pdf-viewer-container iframe,
+.pdf-viewer-container object {
+  display: block;
+  width: 100%;
+  min-height: 800px;
+  border: none;
+}
+
+/* ==========================================
+   PDF Error States
+   ========================================== */
+
+.pdf-error {
+  padding: 4rem 2rem;
+  text-align: center;
+  color: var(--color-text-muted);
+}
+
+.pdf-error h2 {
+  color: var(--color-text);
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+}
+
+.pdf-error p {
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.pdf-error code {
+  display: inline-block;
+  background: var(--color-bg-light);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-family: 'Courier New', monospace;
+  color: var(--color-accent);
+  margin: 1rem 0;
+  border: 1px solid var(--color-border);
+}
+
+.pdf-error-instructions {
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: var(--color-text-muted);
+}
+
+.pdf-loading {
+  padding: 4rem 2rem;
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 1.125rem;
+}
