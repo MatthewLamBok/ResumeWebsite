@@ -24,7 +24,7 @@
     "technologies": ["Python", "OpenCV", "NumPy", "Tkinter", "libfreenect", "Computer Vision"],
     "date": "Dec 2025",
     "image": "/static/images/project/screenshot.png",
-    "github": "https://github.com/yourusername/Kinect-PythonScripts",
+    "github": "https://github.com/MatthewLamBok/KinectControl",
     "live": "",
     "highlights": [
         "Real-time depth sensing with 6 visualization modes (Enhanced, Jet, Hot, Cool, Grayscale, Rainbow)",
