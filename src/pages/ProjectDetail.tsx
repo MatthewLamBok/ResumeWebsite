@@ -1,7 +1,23 @@
 import { useParams, Navigate } from 'react-router-dom';
 import projectsData from '../content/json/projects.json';
 import type { ProjectItem } from '../types';
-import { markdownToHtml } from '../utils/textFormat';
+import { parseMarkdown } from '../utils/textFormat';
+
+// Component to render text with markdown formatting
+const MarkdownText: React.FC<{ text: string }> = ({ text }) => {
+  const parts = parseMarkdown(text);
+  return (
+    <>
+      {parts.map((part, idx) => 
+        typeof part === 'string' ? (
+          <span key={idx}>{part}</span>
+        ) : (
+          <strong key={idx}>{part.bold}</strong>
+        )
+      )}
+    </>
+  );
+};
 
 const ProjectDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -35,7 +51,9 @@ const ProjectDetail: React.FC = () => {
                   <h2>Key Highlights</h2>
                   <ul>
                     {project.highlights.map((highlight, idx) => (
-                      <li key={idx} dangerouslySetInnerHTML={{ __html: markdownToHtml(highlight) }} />
+                      <li key={idx}>
+                        <MarkdownText text={highlight} />
+                      </li>
                     ))}
                   </ul>
                 </div>
@@ -44,7 +62,9 @@ const ProjectDetail: React.FC = () => {
               {project.notes && (
                 <div className="project-detail-notes">
                   <h2>Additional Notes</h2>
-                  <div className="notes-content" dangerouslySetInnerHTML={{ __html: markdownToHtml(project.notes) }} />
+                  <div className="notes-content">
+                    <MarkdownText text={project.notes} />
+                  </div>
                 </div>
               )}
               

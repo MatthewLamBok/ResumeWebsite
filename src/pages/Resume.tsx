@@ -1,6 +1,6 @@
-import resumePdf from '../static/pdf/resume.pdf';
-
 const Resume = () => {
+  const resumePdf = '/static/pdf/resume.pdf';
+  
   return (
     <main className="resume-page">
       <div className="resume-container">

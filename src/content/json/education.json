@@ -20,5 +20,17 @@
     "startDate": "2019",
     "endDate": "April 2023",
     "gpa": "3.7/4.0"
+  },
+  {
+    "id": 3,
+    "degree": "Ontario Secondary School Diploma",
+    "school": "Town Centre Private School Markham",
+    "location": "Markham, ON",
+    "startDate": "2017",
+    "endDate": "April 2019",
+    "additionalInfo": [
+      "International Baccalaureate Student (Honors)"
+    ]
   }
+
 ]

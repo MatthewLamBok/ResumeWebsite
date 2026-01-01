@@ -28,7 +28,7 @@ const Education: React.FC = () => {
                   <h4 className="education-school">{edu.school}</h4>
                   <p className="education-location">{edu.location}</p>
                 </div>
-                <p className="education-gpa">GPA: {edu.gpa}</p>
+                {edu.gpa && <p className="education-gpa">GPA: {edu.gpa}</p>}
               </div>
               
               {edu.thesis && (

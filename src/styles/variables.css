@@ -37,6 +37,9 @@
   /* Border Colors */
   --color-border: #334155;
   
+  /* Icon Colors */
+  --icon-invert: 1;
+  
   /* Color Scheme */
   color-scheme: dark;
   color: var(--color-text);
@@ -62,6 +65,9 @@
   
   /* Border Colors */
   --color-border: #e2e8f0;
+  
+  /* Icon Colors */
+  --icon-invert: 0;
   
   /* Color Scheme */
   color-scheme: light;

@@ -19,6 +19,26 @@
 
   {
     "id": 2,
+    "name": "Kinect v1 Controller",
+    "description": "Python-based controller for Microsoft Kinect v1 with  depth visualization, motor control, and real-time camera streaming. Features multiple depth colormaps, auto-range detection, zoom/pan controls, and performance-optimized threading.",
+    "technologies": ["Python", "OpenCV", "NumPy", "Tkinter", "libfreenect", "Computer Vision"],
+    "date": "Dec 2025",
+    "image": "/static/images/project/screenshot.png",
+    "github": "https://github.com/yourusername/Kinect-PythonScripts",
+    "live": "",
+    "highlights": [
+        "Real-time depth sensing with 6 visualization modes (Enhanced, Jet, Hot, Cool, Grayscale, Rainbow)",
+        "Auto-range detection using percentile analysis for optimal depth visualization",
+        "Multi-threaded architecture with motor control, camera streaming, and GUI on separate threads",
+        "Motor control with tilt range -27° to +27° with debounced slider and command queuing"
+    ],
+    "notes": "Built using libfreenect drivers for hardware interfacing. Includes thread-safe motor operations and efficient depth processing pipeline with gamma correction. GUI built with Tkinter, visualization with OpenCV.",
+    "images": [],
+    "pdfs": []
+  },
+
+  {
+    "id": 3,
     "name": "Enhancing Polyp Segmentation in Colorectal Cancer using Attention U-Net Model",
     "description": "Built a full segmentation pipeline including data preprocessing, augmentation, model training, evaluation metrics, and visualization.",
     "technologies": ["Python", "PyTorch", "U-Net", "Computer Vision"],
@@ -35,15 +55,13 @@
     "pdfs": [
       {
       "name": "Project Report",
-      "url": "/src/static/pdf/IEEE_Conference_Template_Matthew_Lam_final_verionV2.pdf"
+      "url": "/static/pdf/IEEE_Conference_Template_Matthew_Lam_final_verionV2.pdf"
       }
     ]
   },
 
-
-
   {
-    "id": 3,
+    "id": 4,
     "name": "Gender Classificaton in Abalone using Deep Learning",
     "description": "Developed a multi-class ML system to classify abalone sex (male, female, infant) using physical features, evaluating 18 models and optimizing performance with AUC-based selection.",
     "technologies": ["Python", "Scikit-learn", "Pandas", "NumPy", "Machine Learning"],
@@ -59,5 +77,34 @@
     "images": [],
     "pdfs": [
     ]
+  },
+
+  
+  {
+    "id": 5,
+    "name": "Analysis of Cerebromicrovascular Disease in Elderly Patients With Diabetes",
+    "description": "Collaborated with a team to design, implement, and evaluate machine learning models, contributing to data analysis and result interpretation.",
+    "technologies": ["MATLAB", "Machine Learning", "Signal Processing"],
+    "date": "Nov 2021",
+    "image": "#",
+    "github": "#",
+    "live": "#",
+    "highlights": [
+      "Investigated the relationship between diabetes and cerebral microvascular disease using ECG signal analysis and machine learning models.",
+      "Implemented ECG preprocessing, feature extraction, and classification pipelines, achieving up to 77.8% validation accuracy using logistic regression."
+    ],
+    "notes": "",
+    "images": [],
+    "pdfs": [
+            {
+      "name": "Project Presentation",
+      "url": "/static/pdf/BME 772 - Project Presentation.pdf"
+      },
+            {
+      "name": "Project Report",
+      "url": "/static/pdf/BME 772 - Final Report - Google Docs.pdf"
+      }
+    ]
   }
+
 ]

@@ -57,6 +57,96 @@
   margin-bottom: 2rem;
 }
 
+.hero-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--color-text);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+}
+
+.contact-info {
+  background: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+}
+
+.contact-info:hover {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+.contact-social {
+  font-size: 1.5rem;
+  padding: 0.3rem 0.5rem;
+  background: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+}
+
+.contact-social:hover {
+  transform: scale(1.2) translateY(-2px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+  border-color: var(--color-primary);
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.contact-social .social-icon {
+  filter: brightness(0) saturate(100%) invert(var(--icon-invert, 0));
+  opacity: 0.7;
+}
+
+.contact-social:hover .social-icon {
+  filter: brightness(0) saturate(100%) invert(45%) sepia(89%) saturate(2267%) hue-rotate(210deg) brightness(96%) contrast(93%);
+  opacity: 1;
+}
+
+.contact-icon {
+  font-size: 1.1rem;
+}
+
+.contact-icon-img {
+  width: 18px;
+  height: 18px;
+  display: block;
+  transition: all 0.3s ease;
+  filter: brightness(0) saturate(100%) invert(var(--icon-invert, 0));
+  opacity: 0.7;
+}
+
+.contact-info:hover .contact-icon-img {
+  filter: brightness(0) saturate(100%) invert(45%) sepia(89%) saturate(2267%) hue-rotate(210deg) brightness(96%) contrast(93%);
+  opacity: 1;
+}
+
+.contact-text {
+  font-weight: 500;
+}
+
+.contact-divider {
+  color: var(--color-border);
+  user-select: none;
+}
+
 .hero-cta {
   display: inline-flex;
   gap: 1rem;

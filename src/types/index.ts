@@ -24,7 +24,7 @@ export interface Education {
   location: string;
   startDate: string;
   endDate: string;
-  gpa: string;
+  gpa?: string;
   thesis?: string;
   additionalInfo?: string[];
 }
