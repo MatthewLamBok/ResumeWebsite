@@ -1,9 +1,11 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import type { ProjectItem } from '../types';
 import projectsData from '../content/json/projects.json';
 import { markdownToHtml } from '../utils/textFormat';
 
 const Projects: React.FC = () => {
+  const navigate = useNavigate();
   const projects = projectsData as ProjectItem[];
   const [showAll, setShowAll] = useState(false);
   const INITIAL_DISPLAY = 4;
@@ -17,7 +19,12 @@ const Projects: React.FC = () => {
         <h2 className="section-title">Projects</h2>
         <div className="projects-grid">
           {displayedProjects.map((project) => (
-            <div key={project.id} className="project-card">
+            <div 
+              key={project.id} 
+              className="project-card"
+              onClick={() => navigate(`/project/${project.id}`)}
+              style={{ cursor: 'pointer' }}
+            >
               <div className="project-content">
                 <h3 className="project-name">{project.name}</h3>
                 <p className="project-date">{project.date}</p>

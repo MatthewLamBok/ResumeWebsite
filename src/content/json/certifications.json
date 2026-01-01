@@ -1,22 +1,35 @@
 [
-  {
+    {
     "id": 1,
-    "name": "1st Place in Biomedical Engineering Case Competition",
-    "issuer": "Toronto Metropolitan University",
-    "date": "2022",
-    "description": "Designed a full-body suit that regulates body temperature in extreme environments"
+    "name": "EndoPathAI: A Web-Based AI Platform for Automated Endometrial Biopsy Analysis",
+    "issuer": "Research Day | Department of Obstetrics and Gynaecology (ObGyn)",
+    "issuerURL": "https://obgyn.utoronto.ca/research-day",
+    "date": "2025",
+    "description": "Presented research on the application of interactive user interface systems for endometrial cancer diagnosis"
   },
-  {
+    {
     "id": 2,
-    "name": "Software Fundamentals Series",
-    "issuer": "IEEE CSRC",
-    "date": "2022",
-    "description": "Python, Unix, GitHub, SQL"
+    "name": "Designing an Endometrial Pathology Slide Classification User Interface",
+    "issuer": "GT x ImNO Joint Symposium",
+    "issuerURL": "https://www.imno.ca/wp-content/uploads/ImNO-2025-Proceedings.pdf#page=45",
+    "date": "2025",
+    "description": "Showcased a user interface for pathologists to interact with AI-generated slide classifications and heatmaps"
   },
   {
     "id": 3,
-    "name": "Certified SOLIDWORKS Associate (CWSA)",
-    "issuer": "SOLIDWORKS",
-    "date": "2021"
+    "name": "Classification of Endometrial Greyscale Pathology Slide",
+    "issuer": "Research Day | Department of Obstetrics and Gynaecology (ObGyn)",
+    "issuerURL": "https://obgyn.utoronto.ca/research-day",
+    "date": "2024",
+    "description": "Presented work on deep learning models for classifying endometrial pathology slides using greyscale images"
+  },
+
+  {
+    "id": 4,
+    "name": "1st Place in Biomedical Engineering Case Competition",
+    "issuer": "Toronto Metropolitan University",
+    "issuerURL": "https://www.torontomu.ca/",
+    "date": "2022",
+    "description": "Designed a full-body suit that regulates body temperature in extreme environments"
   }
 ]

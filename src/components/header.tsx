@@ -78,6 +78,7 @@ const Header: React.FC = () => {
             Skills
           </a>
 
+          <Link to="/gallery">Gallery</Link>
           <Link to="/resume" className="resume-link">Resume</Link>
           <button 
             className="theme-toggle" 

@@ -39,12 +39,25 @@ export interface ProjectItem {
   github?: string;
   live?: string;
   highlights?: string[];
+  images?: string[];
+  pdfs?: { name: string; url: string }[];
+  notes?: string;
 }
 
 export interface Certification {
   id: number;
   name: string;
   issuer: string;
+  issuerURL?: string;
   date: string;
   description?: string;
+}
+
+export interface GalleryCollection {
+  id: number;
+  title: string;
+  description: string;
+  coverImage: string;
+  images: string[];
+  date?: string;
 }

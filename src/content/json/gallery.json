@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "title": "Nature Photography at Toogood Pond",
+    "description": "A collection of nature shots",
+    "coverImage": "/src/static/images/Gallery1/Collection1_1.jpeg",
+    "images": [
+      "/src/static/images/Gallery1/Collection1_1.jpeg",
+      "/src/static/images/Gallery1/Collection1_2.jpeg",
+      "/src/static/images/Gallery1/Collection1_3.jpeg"
+    ],
+    "date": "2024"
+  },
+  {
+    "id": 2,
+    "title": "Personal Photography Miscellaneous",
+    "description": "",
+    "coverImage": "/static/images/urban-cover.jpg",
+    "images": [
+      "/static/images/urban-1.jpg",
+      "/static/images/urban-2.jpg"
+    ],
+    "date": "2024"
+  }
+]
